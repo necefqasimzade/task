@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.Mycontainer {
+  background: rgba(255, 255, 255, 0);
+}
+
+.section_wolcame_villa {
+  background-image: url(https://preview.colorlib.com/theme/villa/img/hero_1.jpg);
+  background-size: 100%;
+  height: 1000px;
+  background-repeat: no-repeat;
+}
+.section_wolcame_villa .villa_box {
+  font-size: 30px;
+  display: flex;
+  margin-top: 200px;
+  flex-direction: column;
+  align-items: center;
+}
+.section_wolcame_villa .villa_box .expero_box {
+  display: flex;
+  gap: 10px;
+}
+.section_wolcame_villa .villa_box .expero_box a {
+  font-size: 20px;
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #e61c5d;
+  border: 1px solid white;
+}
+
+.CARUSEL_SECTION {
+  width: 1340px;
+}
+.CARUSEL_SECTION .gorgeous_place {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recent_blog_section .mybox_conatiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 10px;
+}
+.recent_blog_section .mybox_conatiner img {
+  width: 250px;
+  height: 250px;
+}
+.recent_blog_section .Five_Reasons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box_Copyright {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  color: gray;
+}/*# sourceMappingURL=main.css.map */
